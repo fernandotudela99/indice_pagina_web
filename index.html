@@ -3,29 +3,23 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Portal de Tecnico Informatico FA — acceso a mis blogs en Blogger y WordPress: tutoriales, trucos y soporte técnico.">
+    <meta name="description" content="Portal de T&eacute;cnico Inform&aacute;tico FA — acceso a mis blogs en Blogger y WordPress: tutoriales, trucos y soporte t&eacute;cnico.">
     <title>T&eacute;cnico Inform&aacute;tico FA — Portal</title>
 
     <!-- Open Graph (ajusta URL y imagen cuando tengas dominio definitivo) -->
     <meta property="og:title" content="T&eacute;cnico Inform&aacute;tico FA">
-    <meta property="og:description" content="Tutoriales, trucos y soporte técnico. Accede a mis blogs en Blogger y WordPress.">
+    <meta property="og:description" content="Tutoriales, trucos y soporte t&eacute;cnico. Accede a mis blogs en Blogger y WordPress.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://TU-DOMINIO.COM/">
-    <meta property="og:image" content="https://TU-DOMINIO.COM/og-image.jpg">
-
-    <!-- Favicon: sustituye por tu favicon real -->
-    <link rel="icon" href="/favicon.ico">
-    
+    <meta property="og:url" content="https://fernandoazcona.es/">    
     <style>
     :root{
         --bg: #0f172a;
         --card: #0b1220;
         --accent: #06b6d4;
         --muted: #94a3b8;
-        --glass: rgba(255,255,255,0.04);
-    }
+        --glass: rgba(255,255,255,0.04);}
     *{box-sizing:border-box}
-    html,body{height:100%}
+    html, body{height:100%}
     body{
         margin:0;
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
@@ -34,10 +28,9 @@
         -webkit-font-smoothing:antialiased;
         -moz-osx-font-smoothing:grayscale;
         display:flex;
-        align-items:center;
+        align-items:flex-start;
         justify-content:center;
-        padding:24px;
-    }
+        padding:48px 24px 24px 24px;}
 
     .container{
         width:100%;
@@ -47,19 +40,18 @@
         border-radius:18px;
         padding:28px;
         box-shadow: 0 10px 30px rgba(2,6,23,0.6);
-        backdrop-filter: blur(6px);
-    }
+        backdrop-filter: blur(6px);}
 
     header{
         display:flex;
         gap:18px;
         align-items:center;
-        margin-bottom:20px;
-    }
+        margin-bottom:20px;}
 
     .logo{
-        width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);display:flex;align-items:center;justify-content:center;font-weight:700;color:#042027;font-size:22px;flex:0 0 64px;
-    }
+        width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);
+        display:flex;align-items:center;justify-content:center;font-weight:700;color:#042027;font-size:22px;
+        flex:0 0 64px;}
 
     h1{font-size:20px;margin:0}
     p.lead{margin:2px 0 0;color:var(--muted);font-size:14px}
@@ -68,40 +60,39 @@
         display:grid;
         grid-template-columns: 1fr;
         gap:14px;
-        margin-top:18px;
-    }
+        margin-top:18px;}
 
     @media(min-width:700px){
-        .grid{grid-template-columns:1fr 1fr}
-    }
+        .grid{grid-template-columns:1fr 1fr}}
 
     .card{
         background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
         border-radius:12px;
         padding:18px;
         border:1px solid rgba(255,255,255,0.03);
-        display:flex;flex-direction:column;gap:8px;align-items:flex-start;justify-content:center;
-    }
+        display:flex;flex-direction:column;gap:8px;align-items:flex-start;justify-content:center;}
 
-    .card h3{margin:0;font-size:16px}
+    .card h3, .card h2{margin:0;font-size:16px}
     .card p{margin:0;color:var(--muted);font-size:13px}
 
     .big-btn{
         margin-top:10px;
-        display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600;border:2px solid transparent;
+        display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;
+        text-decoration:none;font-weight:600;border:2px solid transparent;
         transition:transform .08s ease,box-shadow .12s ease,background .12s ease;
-        background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
-    }
+        background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
 
     .big-btn:focus{outline:3px solid rgba(6,182,212,0.18);outline-offset:3px}
     .big-btn:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(3,7,18,0.6)}
 
     .btn-primary{background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021014}
-    
+
+    .social-links a{
+        margin-right:12px;}
+
     footer{margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:12px}
     .small{font-size:13px;color:var(--muted)}
 
-    /* small helper for logo text if you don't have an image */
     .logo > span{display:inline-block}
     </style>
 </head>
@@ -109,7 +100,6 @@
 <body>
     <main class="container" role="main">
     <header>
-        <!-- LOGO: reemplaza por una imagen si quieres -->
         <div class="logo" aria-hidden="true"><span>TI</span></div>
         <div>
         <h1>T&eacute;cnico Inform&aacute;tico FA</h1>
@@ -117,11 +107,13 @@
         </div>
     </header>
 
+    <!-- Sección blogs y página web -->
     <section class="grid" aria-label="Enlaces a blogs">
         <article class="card">
             <h3>P&aacute;gina web de presentaci&oacute;n</h3>
             <p>Espacio en WordPress donde me presento, comparto mi perfil profesional y ofrezco formas de contacto para soporte t&eacute;cnico, consultas y colaboraciones.</p>
-            <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.wordpress.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir al blog en WordPress">Ir a mi p&aacute;gina de contacto</a>
+            <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.wordpress.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de WordPress">Ir a mi p&aacute;gina de contacto</a>
+            <a class="big-btn btn-primary" href="https://www.facebook.com/tecnicoinformaticofa" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de Facebook">Ir a mi Facebook</a>
         </article>
 
         <article class="card">
@@ -131,16 +123,32 @@
         </article>
     </section>
 
-        <footer>
-            <div class="small">¿Necesitas contacto? <a href="mailto:tu@correo.com" style="color:var(--accent);text-decoration:none">fernandotudela99@gmail.com</a></div>
-            <div class="small">&copy; <span id="year"></span> T&eacute;cnico Inform&aacute;tico FA</div>
-        </footer>
+    <!-- Sección Redes Sociales + TikTok en columnas -->
+    <section class="grid" aria-label="Redes sociales y TikTok">
+        <article class="card">
+            <h2>S&iacute;gueme en redes sociales</h2>
+            <p>Conecta conmigo para estar al d&iacute;a de mis publicaciones y proyectos.</p>
+            <div class="social-links">
+                <a class="big-btn btn-primary" href="https://www.instagram.com/ferazcona99/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a class="big-btn btn-primary" href="https://www.facebook.com/ferazcona99" target="_blank" rel="noopener noreferrer">Facebook</a>
+            </div>
+        </article>
+
+        <article class="card">
+            <h2>TikTok: Viajes, senderismo y atletismo</h2>
+            <p>Mi pareja y yo compartimos reels de nuestras aventuras, entrenamientos y viajes.</p>
+            <a class="big-btn btn-primary" href="https://www.tiktok.com/@actitudenmovimiento99" target="_blank" rel="noopener noreferrer">Visitar nuestro TikTok</a>
+        </article>
+    </section>
+
+    <footer>
+        <div class="small">¿Necesitas contacto? <a href="mailto:fernandotudela99@gmail.com" style="color:var(--accent);text-decoration:none">fernandotudela99@gmail.com</a></div>
+        <div class="small">&copy; <span id="year"></span> T&eacute;cnico Inform&aacute;tico FA</div>
+    </footer>
     </main>
 
     <script>
-    // Año dinámico
-        document.getElementById('year').textContent = new Date().getFullYear();
+    document.getElementById('year').textContent = new Date().getFullYear();
     </script>
 </body>
-
 </html>
