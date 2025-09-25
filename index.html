@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Portal de T&eacute;cnico Inform&aacute;tico FA — acceso a mis blogs en Blogger y WordPress: tutoriales, trucos y soporte t&eacute;cnico.">
-    <title>T&eacute;cnico Inform&aacute;tico FA — Portal</title>
+    <meta name="description" content="PORTAL DE T&Eacute;CNICO INFORM&Aacute;TICO FA.">
+    <title>T&Eacute;CNICO INFORM&Aacute;TICO FA</title>
 
     <!-- Open Graph (ajusta URL y imagen cuando tengas dominio definitivo) -->
-    <meta property="og:title" content="T&eacute;cnico Inform&aacute;tico FA">
+    <meta property="og:title" content="T&Eacute;CNICO INFORM&Aacute;TICO FA">
     <meta property="og:description" content="Tutoriales, trucos y soporte t&eacute;cnico. Accede a mis blogs en Blogger y WordPress.">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://fernandoazcona.es/">    
+    <meta property="og:url" content="https://fernandoazcona.es/">
+    
     <style>
     :root{
         --bg: #0f172a;
@@ -19,7 +21,7 @@
         --muted: #94a3b8;
         --glass: rgba(255,255,255,0.04);}
     *{box-sizing:border-box}
-    html, body{height:100%}
+    html,body{height:100%}
     body{
         margin:0;
         font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
@@ -31,7 +33,6 @@
         align-items:flex-start;
         justify-content:center;
         padding:48px 24px 24px 24px;}
-
     .container{
         width:100%;
         max-width:920px;
@@ -41,13 +42,11 @@
         padding:28px;
         box-shadow: 0 10px 30px rgba(2,6,23,0.6);
         backdrop-filter: blur(6px);}
-
     header{
         display:flex;
         gap:18px;
         align-items:center;
         margin-bottom:20px;}
-
     .logo{
         width:64px;height:64px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#7c3aed);
         display:flex;align-items:center;justify-content:center;font-weight:700;color:#042027;font-size:22px;
@@ -77,8 +76,7 @@
 
     .big-btn{
         margin-top:10px;
-        display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;
-        text-decoration:none;font-weight:600;border:2px solid transparent;
+        display:inline-flex;align-items:center;gap:10px;padding:12px 16px;border-radius:10px;text-decoration:none;font-weight:600;border:2px solid transparent;
         transition:transform .08s ease,box-shadow .12s ease,background .12s ease;
         background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));}
 
@@ -86,9 +84,6 @@
     .big-btn:hover{transform:translateY(-4px);box-shadow:0 8px 20px rgba(3,7,18,0.6)}
 
     .btn-primary{background:linear-gradient(90deg,var(--accent),#7c3aed);color:#021014}
-
-    .social-links a{
-        margin-right:12px;}
 
     footer{margin-top:18px;display:flex;justify-content:space-between;align-items:center;gap:12px}
     .small{font-size:13px;color:var(--muted)}
@@ -103,7 +98,8 @@
         <div class="logo" aria-hidden="true"><span>TI</span></div>
         <div>
         <h1>T&eacute;cnico Inform&aacute;tico FA</h1>
-        <p class="lead">Recursos pr&aacute;cticos en inform&aacute;tica: manuales paso a paso, gu&iacute;as de resoluci&oacute;n de problemas y soporte t&eacute;cnico para usuarios y pequeñas empresas.</p>
+        <p class="lead">Recursos pr&aacute;cticos en inform&aacute;tica: manuales paso a paso, gu&iacute;as de resoluci&oacute;n
+            de problemas y soporte t&eacute;cnico para usuarios y pequeñas empresas.</p>
         </div>
     </header>
 
@@ -111,15 +107,18 @@
     <section class="grid" aria-label="Enlaces a blogs">
         <article class="card">
             <h3>P&aacute;gina web de presentaci&oacute;n</h3>
-            <p>Espacio en WordPress donde me presento, comparto mi perfil profesional y ofrezco formas de contacto para soporte t&eacute;cnico, consultas y colaboraciones.</p>
-            <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.wordpress.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de WordPress">Ir a mi p&aacute;gina de contacto</a>
-            <a class="big-btn btn-primary" href="https://www.facebook.com/tecnicoinformaticofa" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de Facebook">Ir a mi Facebook</a>
+            <p>Comparto mi perfil profesional y ofrezco formas de contacto para soporte t&eacute;cnico, consultas y colaboraciones.</p>
+            <div class="grid" style="grid-template-columns: 1fr 1fr; gap: 12px;">
+                <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.wordpress.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de WordPress">Ir a mi p&aacute;gina web de contacto</a>
+                <a class="big-btn btn-primary" href="https://www.facebook.com/tecnicoinformaticofa" target="_blank" rel="noopener noreferrer" aria-label="Ir a la página de Facebook">Ir a mi p&aacute;gina web de Facebook</a>
+            </div>
         </article>
 
         <article class="card">
             <h3>Blog personal sobre manuales y actividades</h3>
-            <p>Blog en Blogger con manuales paso a paso, gu&iacute;as pr&aacute;cticas de inform&aacute;tica, resoluci&oacute;n de problemas comunes y recursos para aprender de manera sencilla.</p>
-            <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir al blog en Blogger">Ir al blog</a>
+            <p>Manuales paso a paso, gu&iacute;as pr&aacute;cticas de inform&aacute;tica, resoluci&oacute;n
+                de problemas comunes y recursos para aprender de manera sencilla.</p>
+            <a class="big-btn btn-primary" href="https://tecnicoinformaticofa.blogspot.com/" target="_blank" rel="noopener noreferrer" aria-label="Ir al blog en Blogger">Ir al blog (Blogger)</a>
         </article>
     </section>
 
@@ -131,12 +130,13 @@
             <div class="social-links">
                 <a class="big-btn btn-primary" href="https://www.instagram.com/ferazcona99/" target="_blank" rel="noopener noreferrer">Instagram</a>
                 <a class="big-btn btn-primary" href="https://www.facebook.com/ferazcona99" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a class="big-btn btn-primary" href="https://www.linkedin.com/in/fernando-azcona-astrain" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </article>
 
         <article class="card">
             <h2>TikTok: Viajes, senderismo y atletismo</h2>
-            <p>Mi pareja y yo compartimos reels de nuestras aventuras, entrenamientos y viajes.</p>
+            <p>Comparto junto a mi pareja Andrea reels de nuestras aventuras, entrenamientos y viajes.</p>
             <a class="big-btn btn-primary" href="https://www.tiktok.com/@actitudenmovimiento99" target="_blank" rel="noopener noreferrer">Visitar nuestro TikTok</a>
         </article>
     </section>
@@ -152,4 +152,3 @@
     </script>
 </body>
 </html>
-
